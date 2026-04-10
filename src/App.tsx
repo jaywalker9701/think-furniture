@@ -13,6 +13,8 @@ import CartPage from './pages/CartPage';
 import CheckoutPage from './pages/CheckoutPage';
 import LoginPage from './pages/LoginPage';
 import PolicyPage from './pages/PolicyPage';
+import BlogPage from './pages/BlogPage';
+import FreeCallBackPage from './pages/FreeCallBackPage';
 import NotFoundPage from './pages/NotFoundPage';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -40,6 +42,8 @@ function App() {
           <Route path="/cart" element={<CartPage />} />
           <Route path="/checkout" element={<CheckoutPage />} />
           <Route path="/login" element={<LoginPage />} />
+          <Route path="/blog" element={<BlogPage />} />
+          <Route path="/free-call-back" element={<FreeCallBackPage />} />
           
           <Route path="/shipping" element={<PolicyPage title="Shipping Policy" type="shipping" />} />
           <Route path="/returns" element={<PolicyPage title="Returns & Refunds" type="returns" />} />

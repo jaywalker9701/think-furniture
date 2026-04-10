@@ -27,6 +27,8 @@
   background-color: #eee;
   background-size: cover;
   background-position: center;
+  display: block;
+  text-decoration: none;
 }
 
 .grid-item.column-3 {
