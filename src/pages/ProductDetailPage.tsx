@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useContext } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
-import { ChevronRight, Heart, Share2 } from 'lucide-react';
+import { Heart } from 'lucide-react';
 import { CartContext } from '../context/CartContext';
 import { useSEO } from '../hooks/useSEO';
 import './ProductDetailPage.css';
