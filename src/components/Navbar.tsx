@@ -1,5 +1,5 @@
 import React, { useState, useContext } from 'react';
-import { Phone, Search, User, Heart, ShoppingCart, ChevronDown, Menu, X, LogOut } from 'lucide-react';
+import { Phone, User, ShoppingCart, ChevronDown, Menu, X, LogOut } from 'lucide-react';
 import { Link, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../context/AuthContext';
 import { CartContext } from '../context/CartContext';
