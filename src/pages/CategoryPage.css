@@ -301,3 +301,22 @@
     font-size: 2.5rem;
   }
 }
+
+@media (max-width: 600px) {
+  .product-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  
+  .category-container {
+    max-width: 90%;
+  }
+
+  .product-image {
+    height: 350px;
+  }
+
+  .product-title {
+    font-size: 1.3rem;
+  }
+}

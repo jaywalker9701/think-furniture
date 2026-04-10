@@ -153,6 +153,24 @@
 }
 
 @media (max-width: 1024px) {
-  .row { flex-direction: column; }
-  .grid-item { min-height: 250px !important; }
+  .row { flex-direction: column; gap: 10px; }
+  .grid-item { min-height: 200px !important; background-size: cover; background-position: center; }
+  .grid-item.large { min-height: 280px !important; }
+  .side-stats { gap: 10px; }
+  .side-box { 
+    min-height: 120px !important; 
+    background-size: cover; 
+    background-position: center center;
+  }
+  .wfh-box { min-height: 220px !important; }
+}
+
+@media (max-width: 600px) {
+  .grid-item { min-height: 160px !important; }
+  .side-box { 
+    min-height: 90px !important; 
+    background-size: 110% auto; /* Zoom out slightly to fit text */
+    background-position: left center;
+  }
+  .large.project-box { min-height: 220px !important; }
 }
