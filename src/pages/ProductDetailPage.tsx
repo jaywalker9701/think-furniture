@@ -45,7 +45,7 @@ const ProductDetailPage: React.FC = () => {
       setLoading(true);
       setError(null);
       try {
-        const response = await fetch(`/src/data/categories/${parent}/${child}_data.json`);
+        const response = await fetch(`/data/categories/${parent}/${child}_data.json`);
         if (!response.ok) throw new Error('Failed to load category data');
         const data: Product[] = await response.json();
         
