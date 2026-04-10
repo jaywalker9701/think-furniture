@@ -27,7 +27,6 @@ const Navbar: React.FC = () => {
           {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
         <button className="mobile-action-btn"><Phone size={20} /></button>
-        <button className="mobile-action-btn"><Search size={24} /></button>
         
         {user ? (
            <button className="mobile-action-btn" onClick={() => logout()} title={`Logout ${user.name}`}>
@@ -60,7 +59,6 @@ const Navbar: React.FC = () => {
           </Link>
           <div className="header-actions" style={{ display: 'flex', alignItems: 'center', gap: '15px' }}>
             <button className="action-btn"><Phone size={20} /></button>
-            <button className="action-btn"><Search size={20} /></button>
             
             {user ? (
                <div style={{ display: 'flex', alignItems: 'center', gap: '5px', cursor: 'pointer' }} onClick={() => logout()} title="Click to Logout">
@@ -71,9 +69,7 @@ const Navbar: React.FC = () => {
                <button className="action-btn" onClick={() => navigate('/login')} title="Log In"><User size={20} /></button>
             )}
             
-            <button className="action-btn"><Heart size={20} /></button>
-            <span className="separator" style={{ margin: '0 5px' }}>|</span>
-            <button className="action-btn cart-btn" onClick={() => navigate('/cart')} style={{ position: 'relative', display: 'flex', alignItems: 'center', gap: '8px' }}>
+            <button className="action-btn" onClick={() => navigate('/cart')} style={{ position: 'relative', display: 'flex', alignItems: 'center', gap: '8px' }}>
               <ShoppingCart size={20} />
               <span style={{ fontSize: '14px', fontWeight: 700 }}>{itemCount}</span>
             </button>

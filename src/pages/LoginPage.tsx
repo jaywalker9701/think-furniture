@@ -30,16 +30,16 @@ const LoginPage: React.FC = () => {
           {!isLogin && (
             <div>
               <label style={{ display: 'block', marginBottom: '8px', fontSize: '14px', fontWeight: 600 }}>Full Name</label>
-              <input required type="text" value={name} onChange={e => setName(e.target.value)} style={{ width: '100%', padding: '15px', border: '1px solid #ccc' }} />
+              <input required type="text" value={name} onChange={e => setName(e.target.value)} style={{ width: '100%', padding: '15px', border: '1px solid #ccc', backgroundColor: '#fff', color: '#000' }} />
             </div>
           )}
           <div>
             <label style={{ display: 'block', marginBottom: '8px', fontSize: '14px', fontWeight: 600 }}>Email Address</label>
-            <input required type="email" value={email} onChange={e => setEmail(e.target.value)} style={{ width: '100%', padding: '15px', border: '1px solid #ccc' }} />
+            <input required type="email" value={email} onChange={e => setEmail(e.target.value)} style={{ width: '100%', padding: '15px', border: '1px solid #ccc', backgroundColor: '#fff', color: '#000' }} />
           </div>
           <div>
             <label style={{ display: 'block', marginBottom: '8px', fontSize: '14px', fontWeight: 600 }}>Password</label>
-            <input required type="password" value={password} onChange={e => setPassword(e.target.value)} style={{ width: '100%', padding: '15px', border: '1px solid #ccc' }} />
+            <input required type="password" value={password} onChange={e => setPassword(e.target.value)} style={{ width: '100%', padding: '15px', border: '1px solid #ccc', backgroundColor: '#fff', color: '#000' }} />
           </div>
           
           <button type="submit" style={{ width: '100%', padding: '18px', backgroundColor: '#000', color: '#fff', border: 'none', fontSize: '16px', fontWeight: 700, textTransform: 'uppercase', cursor: 'pointer', marginTop: '10px' }}>
