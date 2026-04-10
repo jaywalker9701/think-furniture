@@ -1,0 +1,247 @@
+.about-us-page {
+  width: 100%;
+  background-color: #fff;
+}
+
+.breadcrumb-container {
+  width: 100%;
+  background-color: #efefef;
+  padding: 15px 40px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.breadcrumb-text {
+  font-size: 0.85rem;
+  color: #333;
+  margin: 0;
+  font-weight: 500;
+}
+
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 40px;
+}
+
+.about-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.page-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #000;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 15px;
+}
+
+.about-section {
+  margin-bottom: 60px;
+}
+
+.about-section h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 30px;
+  position: relative;
+  padding-bottom: 0px;
+}
+
+.about-section p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+/* Bio Section */
+.bio-item {
+  margin-bottom: 40px;
+}
+
+.bio-item h3 {
+  font-size: 1.4rem;
+  color: #000;
+  margin-bottom: 15px;
+}
+
+.brochure-container {
+  margin-top: 30px;
+}
+
+.download-btn {
+  background-color: #f17e16;
+  color: white;
+  padding: 16px 35px;
+  border: none;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.download-btn:hover {
+  background-color: #d66a0d;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Help List */
+.help-list {
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+.help-list li {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #444;
+  margin-bottom: 15px;
+}
+
+/* Clients Section */
+.clients-section {
+  text-align: center;
+}
+
+.clients-logo-container {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.clients-img {
+  max-width: 100%;
+  height: auto;
+  opacity: 0.8;
+}
+
+.clients-text {
+  font-style: italic;
+}
+
+/* Corporate Info */
+.corporate-info {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  background-color: #f9f9f9;
+  padding: 40px;
+  border-radius: 8px;
+}
+
+.info-block h3 {
+  font-size: 1.2rem;
+  color: #000;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.info-block p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.contact-points a {
+  color: #f17e16;
+  text-decoration: none;
+}
+
+.contact-points a:hover {
+  text-decoration: underline;
+}
+
+/* Contact Form Section */
+.contact-form-section {
+  background-color: #fff;
+}
+
+.form-intro {
+  font-weight: 700;
+  font-size: 1.3rem !important;
+  color: #000 !important;
+  margin-bottom: 10px !important;
+}
+
+.form-sub-intro {
+  margin-bottom: 40px !important;
+}
+
+.about-contact-form {
+  max-width: 800px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-group.full-width {
+  grid-column: span 2;
+}
+
+.form-group label {
+  font-weight: 600;
+  color: #333;
+}
+
+.required {
+  color: #f17e16;
+  font-size: 0.8rem;
+  font-style: italic;
+  margin-left: 5px;
+}
+
+.form-group input, .form-group textarea {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.form-group input:focus, .form-group textarea:focus {
+  border-color: #f17e16;
+}
+
+.form-group textarea {
+  height: 150px;
+  resize: vertical;
+}
+
+.submit-btn {
+  margin-top: 40px;
+  background-color: #f17e16;
+  color: white;
+  padding: 15px 45px;
+  border: none;
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #d66a0d;
+}
+
+@media (max-width: 900px) {
+  .corporate-info { grid-template-columns: 1fr; }
+  .form-grid { grid-template-columns: 1fr; }
+  .form-group.full-width { grid-column: span 1; }
+  .about-container { padding: 40px 20px; }
+}

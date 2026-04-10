@@ -1,0 +1,111 @@
+.new-products-section {
+  width: 100%;
+  padding: 80px 0;
+  background-color: #fff;
+  text-align: center;
+}
+
+.new-products-section .container {
+  max-width: 100%;
+  width: 100%;
+  padding: 0 40px; /* Minimal side padding */
+}
+
+.new-products-section .section-title {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 60px;
+  text-transform: capitalize;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-img-box {
+  width: 100%;
+  height: 350px; /* Fixed height for image area to keep text aligned */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.product-img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  transition: transform 0.5s ease;
+}
+
+.product-card:hover .product-img {
+  transform: scale(1.03);
+}
+
+.product-details {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.product-brand {
+  font-size: 0.8rem;
+  color: #a46f33; /* A goldish color seen in some brand tags */
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.product-name {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 0;
+  line-height: 1.4;
+  min-height: 2.8em; /* Ensure 2 lines are always reserved */
+}
+
+.product-price {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.price-reg {
+  font-size: 0.95rem;
+  color: #333;
+  font-weight: 500;
+}
+
+.price-vat {
+  font-size: 0.95rem;
+  color: #333;
+  font-weight: 800; /* Bolder as per screenshot */
+}
+
+@media (max-width: 1200px) {
+  .products-grid { grid-template-columns: repeat(2, 1fr); }
+  .product-img-box { height: 280px; }
+}
+
+@media (max-width: 600px) {
+  .products-grid { grid-template-columns: 1fr; }
+  .product-img-box { height: 250px; }
+}

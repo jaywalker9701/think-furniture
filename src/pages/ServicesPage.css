@@ -1,0 +1,188 @@
+.services-page {
+  width: 100%;
+  background-color: #fff;
+  padding-bottom: 0; /* Removed padding to bring newsletter close to footer */
+}
+
+.breadcrumb-container {
+  width: 100%;
+  background-color: #efefef; /* Light gray background */
+  padding: 15px 40px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.breadcrumb-text {
+  font-size: 0.85rem;
+  color: #333;
+  margin: 0;
+  font-weight: 500;
+}
+
+.services-header {
+  padding: 60px 40px 60px;
+  text-align: center;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.page-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+  font-family: inherit;
+}
+
+.page-intro {
+  font-size: 1.2rem;
+  color: #666;
+  line-height: 1.8;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.services-container {
+  max-width: 100%; /* Spanning full width */
+  margin: 0 auto;
+  padding: 0 40px; /* Reduced side padding (matches header) */
+  display: flex;
+  flex-direction: column;
+  gap: 80px; /* Tighter gap between rows */
+}
+
+.service-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px; /* Reduced gap to bring text closer to image */
+  min-height: 450px;
+}
+
+.service-row.reverse {
+  flex-direction: row-reverse;
+}
+
+.service-image-box {
+  flex: 0 0 60%; 
+  width: 60%;
+  height: 500px;
+  background-color: #f5f5f5;
+  overflow: hidden;
+}
+
+.service-page-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.service-row:hover .service-page-img {
+  transform: scale(1.03);
+}
+
+.service-content-box {
+  flex: 0 0 40%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 0 20px; /* Further reduced padding as requested */
+}
+
+.service-title-large {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.title-underline {
+  width: 250px; /* Specific length as requested */
+  height: 1px; 
+  background-color: #000; 
+  margin: 0 auto 30px;
+}
+
+.service-description-text {
+  font-size: 1.1rem;
+  color: #444;
+  line-height: 1.8;
+  word-wrap: break-word; /* Safety against long text cutting off */
+}
+
+@media (max-width: 1024px) {
+  .service-row, .service-row.reverse {
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+  }
+  .service-image-box, .service-content-box {
+    width: 100%;
+  }
+  .service-content-box { padding: 0; }
+  .page-title { font-size: 2.5rem; }
+}
+
+@media (max-width: 600px) {
+  .services-header { padding: 80px 20px 40px; }
+  .services-container { gap: 80px; padding: 0 20px; }
+  .service-title-large { font-size: 1.5rem; }
+}
+
+/* Services Footer CTA */
+.services-footer-cta {
+  background-color: #dcdcdc; /* Light/Mid Gray as requested */
+  padding: 80px 40px;
+  text-align: center;
+  margin-bottom: 80px; /* Added gap between this and newsletter */
+}
+
+.cta-content-inner {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.cta-main-text {
+  font-size: 1.2rem;
+  color: #1a1a1a;
+  margin-bottom: 20px;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+.cta-sub-text {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.cta-button-group {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.cta-white-btn {
+  background-color: #fff;
+  border: none;
+  padding: 18px 45px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  letter-spacing: 0.5px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.cta-white-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  background-color: #f9f9f9;
+}

@@ -1,0 +1,156 @@
+.grid-section {
+  width: 100%;
+  padding: 15px 0; /* Added 15px vertical padding to match internal gaps */
+  background: #fff;
+}
+
+.grid-container {
+  max-width: 100%;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Keeping a small gap between rows as per screenshot */
+}
+
+.row {
+  display: flex;
+  gap: 15px; /* Reduced gap slightly for a tighter feel */
+  width: 100%;
+}
+
+.grid-item {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  background-color: #eee;
+  background-size: cover;
+  background-position: center;
+}
+
+.grid-item.column-3 {
+  flex: 1;
+  aspect-ratio: 1 / 1; /* Makes the box a perfect square */
+}
+
+.grid-item::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.2); /* Subtle white overlay */
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.grid-item:hover::after {
+  opacity: 1;
+}
+
+.grid-item.large {
+  flex: 2;
+  min-height: 480px;
+}
+
+.side-stats {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.side-box {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  transition: all 0.3s;
+}
+
+/* Row 1 Real Images */
+.project-box { 
+  background-image: url('https://www.think-furniture.com/product_images/uploaded_images/got-a-project-home-page-link-v2.jpg'); 
+}
+
+.why-choose-box { 
+  background-image: url('https://www.think-furniture.com/product_images/uploaded_images/why-choose-us-home-page-link-v4.jpg'); 
+}
+
+.free-call-box { 
+  background-image: url('https://www.think-furniture.com/product_images/uploaded_images/free-call-back-home-page-link-v4.jpg'); 
+}
+
+.read-blog-box { 
+  background-image: url('https://www.think-furniture.com/product_images/uploaded_images/read-our-blog-home-page-link-v4.jpg'); 
+}
+
+/* Row 2 Real Images */
+.hybrid-office { background-image: url('https://www.think-furniture.com/product_images/uploaded_images/hybrid-office-design-page-link.jpg'); }
+.office-pods { background-image: url('https://www.think-furniture.com/product_images/uploaded_images/office-pods-page-link-1.jpg'); }
+.home-office { background-image: url('https://www.think-furniture.com/product_images/uploaded_images/office-pods-page-link-1.jpg'); }
+
+/* Row 3 Real Images */
+.events-box { background-image: url('https://www.think-furniture.com/product_images/uploaded_images/events-home-page-link.jpg'); }
+.wfh-box { background-image: url('https://www.think-furniture.com/product_images/uploaded_images/think-furniture-working-from-home-banner-image.jpeg'); min-height: 350px; flex: 2;}
+
+/* Row 4 Real Images */
+.acoustic-box { background-image: url('https://www.think-furniture.com/product_images/uploaded_images/acoustic-wall-panels-page-link.jpg'); }
+.sit-stand-box { background-image: url('http://think-furniture.com/product_images/uploaded_images/humanscale-quickstand-complete-blue-optimised.gif'); }
+.dealer-box { background-image: url('https://www.think-furniture.com/product_images/uploaded_images/authentic-product-dealer-home-page-link.jpg'); }
+
+.grid-item.column-3 { flex: 1; }
+.grid-item.column-1 { flex: 1; }
+.grid-item.column-2-alt { flex: 2.3; }
+
+/* Overlays */
+.overlay, .placeholder-overlay {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.overlay span {
+  font-weight: 700;
+  font-size: 1.15rem;
+  letter-spacing: 1.5px;
+  background: rgba(0,0,0,0.2);
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.title-bold {
+  font-size: 3rem;
+  font-weight: 800;
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+.subtitle-regular {
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin: 8px 0 0;
+  letter-spacing: 3px;
+}
+
+.divider {
+  width: 280px;
+  height: 4px;
+  background-color: white;
+  margin: 15px 0;
+}
+
+@media (max-width: 1024px) {
+  .row { flex-direction: column; }
+  .grid-item { min-height: 250px !important; }
+}
