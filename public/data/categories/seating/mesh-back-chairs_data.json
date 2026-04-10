@@ -18,13 +18,22 @@
     "productId": "3346"
   },
   {
-    "title": "RH Logic 200/220 - Task Chair (s)",
+    "title": "Connection WorkWell - Task Chair",
     "brand": "",
-    "priceExc": "£750",
+    "priceExc": "£254",
     "priceInc": "",
-    "url": "https://www.think-furniture.com/rh-logic-200-220-task-chair-s/",
-    "mainImage": "https://cdn11.bigcommerce.com/s-0193a/images/stencil/160w/products/3342/24374/RH_New_Logic_200_brown_leather_polished__front__27568.1754987877.jpg?c=2",
-    "productId": "3342"
+    "url": "https://www.think-furniture.com/connection-workwell-task-chair-iums/",
+    "mainImage": "https://cdn11.bigcommerce.com/s-0193a/images/stencil/160w/products/3344/24386/_attachment_id265259__00749.1755004398.png?c=2",
+    "productId": "3344"
+  },
+  {
+    "title": "Interstuhl Hej Task Chair - Mesh Back",
+    "brand": "Interstuhl",
+    "priceExc": "",
+    "priceInc": "",
+    "url": "https://www.think-furniture.com/interstuhl-hej-task-chair-mesh-back/",
+    "mainImage": "https://cdn11.bigcommerce.com/s-0193a/images/stencil/160w/products/3299/23749/interstuhl_hej_task_chair_-_mesh_back_-_HJ216__15495.1741176745.jpg?c=2",
+    "productId": "3299"
   },
   {
     "title": "Okamura Choral - Task Chair",
@@ -34,6 +43,24 @@
     "url": "https://www.think-furniture.com/okamura-choral-task-chair/",
     "mainImage": "https://cdn11.bigcommerce.com/s-0193a/images/stencil/160w/products/3249/23146/product-image-rin__92115.1722261751.jpg?c=2",
     "productId": "3249"
+  },
+  {
+    "title": "Brunner Ray Work",
+    "brand": "Brunner",
+    "priceExc": "",
+    "priceInc": "",
+    "url": "https://www.think-furniture.com/brunner-ray-work/",
+    "mainImage": "https://cdn11.bigcommerce.com/s-0193a/images/stencil/160w/products/3233/23020/Brunner_ray_work_9220_clay_light_clay_mit_Gleiter_01_sRGB__50927.1716896406.jpg?c=2",
+    "productId": "3233"
+  },
+  {
+    "title": "Orangebox Recur - Task chair (S)",
+    "brand": "Orangebox",
+    "priceExc": "£274",
+    "priceInc": "",
+    "url": "https://www.think-furniture.com/orangebox-recur-task-chair-s/",
+    "mainImage": "https://cdn11.bigcommerce.com/s-0193a/images/stencil/160w/products/3225/24355/1706724880orangebox0771_M__59767.1755110291.jpg?c=2",
+    "productId": "3225"
   },
   {
     "title": "Vitra ACX Soft - Chair (R)",
@@ -63,22 +90,31 @@
     "productId": "3209"
   },
   {
-    "title": "Humanscale Liberty Ocean Chair",
-    "brand": "Humanscale",
+    "title": "Narbutas Eva.II Task Chair",
+    "brand": "Narbutas",
     "priceExc": "",
     "priceInc": "",
-    "url": "https://www.think-furniture.com/humanscale-liberty-ocean-chair/",
-    "mainImage": "https://cdn11.bigcommerce.com/s-0193a/images/stencil/160w/products/3152/22366/L316BM10O001-------_2_505__68841.1683829423.jpg?c=2",
-    "productId": "3152"
+    "url": "https://www.think-furniture.com/narbutas-eva-ii-task-chair/",
+    "mainImage": "https://cdn11.bigcommerce.com/s-0193a/images/stencil/160w/products/3199/22726/front-angle__15754.1692851119.jpg?c=2",
+    "productId": "3199"
   },
   {
-    "title": "Quadrifoglio Moon Living Chair",
-    "brand": "Quadrifoglio",
-    "priceExc": "£420.8",
+    "title": "Verco Cube Task Chair",
+    "brand": "Verco ",
+    "priceExc": "£448",
     "priceInc": "",
-    "url": "https://www.think-furniture.com/quadrifoglio-moon-living-chair/",
-    "mainImage": "https://cdn11.bigcommerce.com/s-0193a/images/stencil/160w/products/3123/22133/white-shell-grey-beige__80821.1680089849.jpg?c=2",
-    "productId": "3123"
+    "url": "https://www.think-furniture.com/verco-cube-task-chair/",
+    "mainImage": "https://cdn11.bigcommerce.com/s-0193a/images/stencil/160w/products/3069/21762/CUB-22-1-e1547551703498__69593.1677237257.jpg?c=2",
+    "productId": "3069"
+  },
+  {
+    "title": "Interstuhl Runner Chair",
+    "brand": "Interstuhl",
+    "priceExc": "£235.4",
+    "priceInc": "",
+    "url": "https://www.think-furniture.com/interstuhl-runner-chair/",
+    "mainImage": "https://cdn11.bigcommerce.com/s-0193a/images/stencil/160w/products/3064/21745/139RS_1070px__66108.1677177613.jpg?c=2",
+    "productId": "3064"
   },
   {
     "title": "Actiu A+S Work",
@@ -90,31 +126,13 @@
     "productId": "3035"
   },
   {
-    "title": "Altwork Station",
-    "brand": "Altwork",
-    "priceExc": "",
+    "title": "Orangebox AllowMe Task Chair",
+    "brand": "Orangebox",
+    "priceExc": "£349",
     "priceInc": "",
-    "url": "https://www.think-furniture.com/altwork-station/",
-    "mainImage": "https://cdn11.bigcommerce.com/s-0193a/images/stencil/160w/products/2997/20749/Altwork_Station_Home__14451.1667405340.jpg?c=2",
-    "productId": "2997"
-  },
-  {
-    "title": "Humanscale Path Task Chair ",
-    "brand": "Humanscale",
-    "priceExc": "",
-    "priceInc": "",
-    "url": "https://www.think-furniture.com/humanscale-path-task-chair/",
-    "mainImage": "https://cdn11.bigcommerce.com/s-0193a/images/stencil/160w/products/2993/22157/PT10BKT10-----_1_505__96790.1680180071.jpg?c=2",
-    "productId": "2993"
-  },
-  {
-    "title": "Boss Design Sia Task Chair",
-    "brand": "Boss Design",
-    "priceExc": "",
-    "priceInc": "",
-    "url": "https://www.think-furniture.com/boss-design-sia-task-chair/",
-    "mainImage": "https://cdn11.bigcommerce.com/s-0193a/images/stencil/160w/products/2979/20661/SIA_1_-_Sia_Gabriel_Runner_Mesh_Task_Chair_-_Font_-_Boss_Design__46117.1719998744.jpg?c=2",
-    "productId": "2979"
+    "url": "https://www.think-furniture.com/orangebox-allowme-task-chair/",
+    "mainImage": "https://cdn11.bigcommerce.com/s-0193a/images/stencil/160w/products/3019/21196/1634575750orangebox_0632_M__59448.1669668251.jpg?c=2",
+    "productId": "3019"
   },
   {
     "title": "Comfort Skate Draughtsman Office Chair",
@@ -153,6 +171,15 @@
     "productId": "2933"
   },
   {
+    "title": "Comfort Lii Visitor Mesh Office Chair ",
+    "brand": "Comfort",
+    "priceExc": "£301",
+    "priceInc": "",
+    "url": "https://www.think-furniture.com/comfort-lii-visitor-mesh-office-chair/",
+    "mainImage": "https://cdn11.bigcommerce.com/s-0193a/images/stencil/160w/products/2929/20334/Lii_Visitor_Mesh_office_chair_angle__25698.1664288950.jpg?c=2",
+    "productId": "2929"
+  },
+  {
     "title": "Ergohuman Elite G2 Office Chair (S)",
     "brand": "Comfort",
     "priceExc": "£550",
@@ -180,39 +207,12 @@
     "productId": "2926"
   },
   {
-    "title": "QUICK SHIP HÅG Capisco 8106 Task Chair - Grey",
-    "brand": "HAG",
-    "priceExc": "£911.6",
+    "title": "Boss Design Tauro Task Chair",
+    "brand": "Boss Design",
+    "priceExc": "£370",
     "priceInc": "",
-    "url": "https://www.think-furniture.com/quick-ship-hag-capisco-8106-task-chair-grey/",
-    "mainImage": "https://cdn11.bigcommerce.com/s-0193a/images/stencil/160w/products/2547/16531/quick_ship_hag_capisco_8106_saddle_chair_-_gabriel_select_SC60139_fabric_-_white_aluminium_base_-_hard_black_castors_-_front_view__78951.1607532684.jpg?c=2",
-    "productId": "2547"
-  },
-  {
-    "title": "QUICK SHIP HÅG Capisco Puls 8010 Task Chair - Clay",
-    "brand": "HAG",
-    "priceExc": "£410.11",
-    "priceInc": "",
-    "url": "https://www.think-furniture.com/quick-ship-hag-capisco-puls-8010-task-chair-clay/",
-    "mainImage": "https://cdn11.bigcommerce.com/s-0193a/images/stencil/160w/products/2544/16509/quick_ship_hag_capisco_8010_saddle_chair_-_clay_plastic_-_white_metal_base_-_camira_sprint_relay_fabric_-_front_view__53447.1607529107.jpg?c=2",
-    "productId": "2544"
-  },
-  {
-    "title": "QUICK SHIP HÅG Capisco Puls 8010 Task Chair - Light Grey",
-    "brand": "HAG",
-    "priceExc": "£410.11",
-    "priceInc": "",
-    "url": "https://www.think-furniture.com/quick-ship-hag-capisco-puls-8010-task-chair-light-grey/",
-    "mainImage": "https://cdn11.bigcommerce.com/s-0193a/images/stencil/160w/products/2543/16504/quick_ship_hag_capisco_8010_saddle_chair_-_light_grey_plastic_-_white_metal_base_-_camira_sprint_hurdle_fabric_-_front_view__90082.1607528568.jpg?c=2",
-    "productId": "2543"
-  },
-  {
-    "title": "QUICK SHIP HÅG Capisco Puls 8020 Task Chair - Light Grey",
-    "brand": "HAG",
-    "priceExc": "£467.42",
-    "priceInc": "",
-    "url": "https://www.think-furniture.com/quick-ship-hag-capisco-puls-8020-task-chair-light-grey/",
-    "mainImage": "https://cdn11.bigcommerce.com/s-0193a/images/stencil/160w/products/2542/16497/quick_ship_hag_capisco_puls_8020_saddle_chair_-_light_grey_shell_-_sprint_hurdle_fabric_-_white_base_-_front_view__52375.1607526911.jpg?c=2",
-    "productId": "2542"
+    "url": "https://www.think-furniture.com/boss-design-tauro-task-chair/",
+    "mainImage": "https://cdn11.bigcommerce.com/s-0193a/images/stencil/160w/products/2859/19739/Screenshot_2022-05-01_at_15.42.30__95949.1651429639.png?c=2",
+    "productId": "2859"
   }
 ]

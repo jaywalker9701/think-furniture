@@ -105,16 +105,12 @@ const Navbar: React.FC = () => {
                     <div className="mega-col">
                       <h3>SEATING</h3>
                       <ul>
-                        <li><Link to="/categories/seating/task-seating">Home Office Chairs</Link></li>
+                        <li><Link to="/categories/seating/home-office-chairs">Home Office Chairs</Link></li>
                         <li><Link to="/categories/seating/task-seating">Task Seating</Link></li>
-                        <li><Link to="/categories/seating/task-seating">Mesh Back</Link></li>
-                        <li><Link to="/categories/ergonomics/ergonomic-chairs">Ergonomic Chairs</Link></li>
-                        <li><Link to="/categories/seating/task-seating">Meeting & Boardroom</Link></li>
-                        <li><Link to="/categories/seating/task-seating">Executive</Link></li>
-                        <li><Link to="/categories/seating/task-seating">Stacking Chairs</Link></li>
-                        <li><Link to="/categories/breakout-pods/breakout-seating">Breakout Seating</Link></li>
-                        <li><Link to="/categories/seating/task-seating">Soft Seating</Link></li>
-                        <li><Link to="/categories/seating/task-seating">Outdoor Seating</Link></li>
+                        <li><Link to="/categories/seating/mesh-back-chairs">Mesh Back</Link></li>
+                        <li><Link to="/categories/seating/ergonomic-chairs">Ergonomic Chairs</Link></li>
+                        <li><Link to="/categories/seating/meeting-boardroom">Meeting & Boardroom</Link></li>
+                        <li><Link to="/categories/seating/executive">Executive</Link></li>
                       </ul>
                     </div>
                     <div className="mega-col">
@@ -267,29 +263,29 @@ const Navbar: React.FC = () => {
                   <div className="container mega-grid">
                     <div className="mega-col">
                       <ul className="area-sector-list">
-                        <li><Link to="/education">EDUCATION</Link></li>
-                        <li><Link to="/design">DESIGN</Link></li>
-                        <li><Link to="/entertainment">ENTERTAINMENT/STADIA</Link></li>
+                        <li><Link to="/inspiration-by-sector-education">EDUCATION</Link></li>
+                        <li><Link to="/inspiration-by-sector-design">DESIGN</Link></li>
+                        <li><Link to="/inspiration-by-sector-entertainment-stadia">ENTERTAINMENT/STADIA</Link></li>
                       </ul>
                     </div>
                     <div className="mega-col">
                       <ul className="area-sector-list">
-                        <li><Link to="/hospitality">HOSPITALITY</Link></li>
-                        <li><Link to="/healthcare">HEALTHCARE</Link></li>
-                        <li><Link to="/charity">CHARITY</Link></li>
+                        <li><Link to="/inspiration-by-sector-hospitality">HOSPITALITY</Link></li>
+                        <li><Link to="/inspiration-by-sector-healthcare">HEALTHCARE</Link></li>
+                        <li><Link to="/inspiration-by-sector-charity">CHARITY</Link></li>
                       </ul>
                     </div>
                     <div className="mega-col">
                       <ul className="area-sector-list">
-                        <li><Link to="/financial-legal">FINANCIAL/LEGAL</Link></li>
-                        <li><Link to="/coworking">COWORKING</Link></li>
-                        <li><Link to="/manufacturing">MANUFACTURING</Link></li>
+                        <li><Link to="/inspiration-by-sector-financial">FINANCIAL/LEGAL</Link></li>
+                        <li><Link to="/inspiration-by-sector-coworking">COWORKING</Link></li>
+                        <li><Link to="/inspiration-by-sector-manufacturing">MANUFACTURING</Link></li>
                       </ul>
                     </div>
                     <div className="mega-col">
                       <ul className="area-sector-list">
-                        <li><Link to="/media-technology">MEDIA/TECHNOLOGY</Link></li>
-                        <li><Link to="/airports-transportation">AIRPORTS/TRANSPORTATION</Link></li>
+                        <li><Link to="/inspiration-by-sector-media-technology">MEDIA/TECHNOLOGY</Link></li>
+                        <li><Link to="/inspiration-by-sector-airports-transportation">AIRPORTS/TRANSPORTATION</Link></li>
                       </ul>
                     </div>
                   </div>

@@ -4,15 +4,10 @@ import { CartContext } from '../context/CartContext';
 import { AuthContext } from '../context/AuthContext';
 
 const CheckoutPage: React.FC = () => {
-  const { cart, cartTotal, clearCart } = useContext(CartContext);
+  const { cart, cartTotal } = useContext(CartContext);
   const { user } = useContext(AuthContext);
   const navigate = useNavigate();
   const [showErrorPopup, setShowErrorPopup] = useState(false);
-  const [formData, setFormData] = useState({
-    cardNumber: '',
-    expiry: '',
-    cvv: ''
-  });
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();

@@ -12,17 +12,15 @@ const photoPool = [
   "1556800539-715ceee2366b", "1505691938895-1758d7feb511", "1521737604893-d14cc237f11d",
   "1497215248147-22878cefb2b3", "1556761175-5973dc0f32e7", "1527192491265-7e15c55b1ed2",
   "1604328698692-f76ea9498e76", "1577412647305-95079fbe4be1", "1606857521015-7f9fcf423740",
-  "1593642632823-8f785ba67e45", "1495932568733-289b4f971ba4", "1612845423696-24ea94df9da8",
-  "1585408990117-64047aade5f3", "1503944686414-b1523ecdd1bc", "1516089304918-024503def8f9",
-  "1582296568285-1bf86d63d893", "1519389953810-c511178c7eb4", "1578500494198-246f61203671",
-  "1600570761376-7933f8cf4ea4", "1531835560662-8153b3ebbaae", "1487258359788-b21a57e3ebd0",
-  "1573046755452-fddba2a6d4e2"
+  "1593642632823-8f785ba67e45", "1495932568733-289b4f971ba4", "1612845423696-24ea94df9da8"
 ];
 
 const companyNames = [
   "Nexus Tech HQ", "Global Finance Group", "Crescent Creative Studios", 
   "Elevate Enterprises", "Horizon Marketing Agency", "Aurora Innovations",
-  "Vertex Solutions", "Pinnacle Consulting", "Lumiere Design Co."
+  "Vertex Solutions", "Pinnacle Consulting", "Lumiere Design Co.",
+  "Mosaic Dynamics", "Oasis Workspace", "Prism Interactive",
+  "Stellar Systems", "Quantum Partners"
 ];
 
 // Helper to generate a deterministic number from a string
@@ -34,11 +32,31 @@ const hashString = (str: string) => {
   return Math.abs(hash);
 };
 
+const InspirationStrip: React.FC<{ project: any }> = ({ project }) => {
+  const [isVisible, setIsVisible] = React.useState(true);
+
+  if (!isVisible) return null;
+
+  return (
+    <div className="inspiration-strip" style={{ marginBottom: '40px' }}>
+      <img 
+        src={project.imgUrl} 
+        alt={project.caption} 
+        style={{ borderRadius: '4px' }} 
+        onError={() => setIsVisible(false)}
+      />
+      <div className="strip-caption">
+         <p>{project.caption}</p>
+      </div>
+    </div>
+  );
+};
+
 const InspirationPage: React.FC<InspirationPageProps> = ({ title }) => {
-  // Deterministically pick 5 unique images and captions based on page title
+  // Deterministically pick 6 unique images and captions based on page title
   const projects = React.useMemo(() => {
     const seed = hashString(title);
-    return Array.from({ length: 5 }).map((_, i) => {
+    return Array.from({ length: 6 }).map((_, i) => {
       const imgIndex = (seed + i * 7) % photoPool.length;
       const companyIndex = (seed + i * 3) % companyNames.length;
       
@@ -64,12 +82,7 @@ const InspirationPage: React.FC<InspirationPageProps> = ({ title }) => {
 
         <div className="inspiration-gallery">
           {projects.map((project) => (
-            <div key={project.id} className="inspiration-strip" style={{ marginBottom: '40px' }}>
-              <img src={project.imgUrl} alt={project.caption} style={{ borderRadius: '4px' }} />
-              <div className="strip-caption">
-                 <p>{project.caption}</p>
-              </div>
-            </div>
+            <InspirationStrip key={project.id} project={project} />
           ))}
         </div>
       </div>
