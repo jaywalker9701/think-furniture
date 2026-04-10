@@ -1,4 +1,4 @@
-import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import './ProjectsSection.css';
 
 const projects = [
@@ -25,6 +25,8 @@ const projects = [
 ];
 
 const ProjectsSection: React.FC = () => {
+  const navigate = useNavigate();
+
   return (
     <section className="projects-section">
       {/* Video Header */}
@@ -56,7 +58,9 @@ const ProjectsSection: React.FC = () => {
         </div>
 
         <div className="view-more-container">
-          <button className="view-more-btn">View more projects</button>
+          <button className="view-more-btn" onClick={() => navigate('/projects')}>
+            View more projects
+          </button>
         </div>
       </div>
     </section>

@@ -1,7 +1,9 @@
-import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import './CTASection.css';
 
 const CTASection: React.FC = () => {
+  const navigate = useNavigate();
+
   return (
     <section className="cta-section">
       <div className="cta-banner">
@@ -13,7 +15,7 @@ const CTASection: React.FC = () => {
           <p className="cta-subtext">
             Get in touch today for a no obligation discussion to see how we can help with your project.
           </p>
-          <button className="contact-btn">Contact us</button>
+          <button className="contact-btn" onClick={() => navigate('/contact-us')}>Contact us</button>
         </div>
       </div>
     </section>
