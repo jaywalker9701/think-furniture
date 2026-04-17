@@ -69,7 +69,7 @@ const ProductDetailPage: React.FC = () => {
   useSEO({
     title: product ? product.title : 'Loading Product...',
     description: product ? `Buy ${product.title} by ${product.brand}. Premium office furniture from Think Furniture.` : '',
-    canonicalUrl: product ? window.location.href : '',
+    canonicalUrl: product ? `https://thinkfurniture.co.uk${window.location.pathname}` : '',
     jsonLdSchema: product ? {
       "@context": "https://schema.org/",
       "@type": "Product",
@@ -85,7 +85,7 @@ const ProductDetailPage: React.FC = () => {
       },
       "offers": {
         "@type": "Offer",
-        "url": window.location.href,
+        "url": `https://thinkfurniture.co.uk${window.location.pathname}`,
         "priceCurrency": "GBP",
         "price": parseFloat(product.priceExc.replace(/[£,]/g, '')) || 0,
         "availability": "https://schema.org/InStock"

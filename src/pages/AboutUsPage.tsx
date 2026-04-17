@@ -127,10 +127,10 @@ const AboutUsPage: React.FC = () => {
           </div>
           <div className="info-block contact-points">
             <h3>Points of Contact</h3>
-            <p>Margate: 01843 295198</p>
-            <p>London: 020 3773 3222</p>
-            <p>Mobile (Tony King): 07949 520566</p>
-            <p>Email: <a href="mailto:tony@think-furniture.co.uk">tony@think-furniture.co.uk</a></p>
+            <p>Margate: +44 785 314 6763</p>
+            <p>London: +44 785 314 6763</p>
+            <p>Mobile (Tony King): +44 785 314 6763</p>
+            <p>Email: <a href="mailto:info@thinkfurniture.co.uk">info@thinkfurniture.co.uk</a></p>
           </div>
         </section>
 

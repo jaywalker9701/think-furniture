@@ -26,10 +26,10 @@ const ContactUsPage: React.FC = () => {
           <div className="call-us-block">
             <p>Call us on:</p>
             <p className="phone-line">
-              <span className="phone-number">020 3773 3222</span> (London)
+              <span className="phone-number">+44 785 314 6763</span> (London)
             </p>
             <p className="phone-line">
-              <span className="phone-number">01843 295198</span> (National & South East)
+              <span className="phone-number">+44 785 314 6763</span> (National & South East)
             </p>
             <p className="touch-prompt">Or get in touch via the below form</p>
           </div>

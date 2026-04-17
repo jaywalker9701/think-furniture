@@ -16,7 +16,8 @@ const Footer: React.FC = () => {
             N1 7GU<br />
             GB
           </p>
-          <p className="footer-text phone">02037733222</p>
+          <p className="footer-text phone">+44 785 314 6763</p>
+          <p className="footer-text email" style={{fontSize: '11px', color: 'rgba(255,255,255,0.6)', marginTop: '-8px'}}>info@thinkfurniture.co.uk</p>
 
           <h4 className="footer-label margin-top">MARGATE ADDRESS:</h4>
           <p className="footer-text">
@@ -26,7 +27,8 @@ const Footer: React.FC = () => {
             Kent<br />
             CT9 1HD
           </p>
-          <p className="footer-text phone">01843 295 198</p>
+          <p className="footer-text phone">+44 785 314 6763</p>
+          <p className="footer-text email" style={{fontSize: '11px', color: 'rgba(255,255,255,0.6)', marginTop: '-8px'}}>info@thinkfurniture.co.uk</p>
         </div>
 
         {/* Categories */}

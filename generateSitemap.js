@@ -3,7 +3,7 @@ const path = require('path');
 
 const dataDir = path.join(__dirname, 'scraper', 'data', 'tables'); // Adjust this if you have multiple category folders
 const sitemapPath = path.join(__dirname, 'public', 'sitemap.xml');
-const BASE_URL = 'https://www.think-furniture.com';
+const BASE_URL = 'https://thinkfurniture.co.uk';
 const currentDate = new Date().toISOString().split('T')[0];
 
 console.log('Generating dynamic Sitemap for all products...');

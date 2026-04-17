@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.think-furniture.com/sitemap.xml
+Sitemap: https://thinkfurniture.co.uk/sitemap.xml
